@@ -40,3 +40,19 @@ python3 -m venv .venv && source .venv/bin/activate
 
 ## Uso basico (CLI)
 
+```bash
+sudo python3 user_manager.py --create --user <nombre_usuario> --password <contraseña>
+```
+
+### Ejemplo:
+
+```bash
+sudo python3 user_manager.py --create --user juan --password ClaveSegura123
+```
+
+## Crear Usuario y añadirloa grupos
+Puedes especificar varios grupos separados por comas:
+
+```bash
+sudo python3 user_manager.py --create --user juan --password ClaveSegura123 --group sudo,developers
+```
