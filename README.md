@@ -50,7 +50,7 @@ sudo python3 user_manager.py --create --user <nombre_usuario> --password <contra
 sudo python3 user_manager.py --create --user juan --password ClaveSegura123
 ```
 
-## Crear Usuario y añadirloa grupos
+## Crear Usuario y añadirlo a grupos
 Puedes especificar varios grupos separados por comas:
 
 ```bash
