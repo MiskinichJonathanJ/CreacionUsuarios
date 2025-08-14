@@ -1,0 +1,15 @@
+2025-08-13 21:54:55,255 - ERROR - Error al crear  al  usuario testuser: Command '['sudo', 'passwd', 'testuser']' returned non-zero exit status 10.
+2025-08-13 21:57:42,371 - ERROR - Error al crear  al  usuario testuser: Command '['sudo', 'adduser', 'testuser']' returned non-zero exit status 11.
+2025-08-13 22:00:35,119 - INFO - Usuario testuser creado con exito.
+2025-08-13 22:00:35,135 - ERROR - Error al añadir  al  usuario a  los grupos s,u,d,o,,,d,e,v,e,l,o,p,e,r,s: Command '['sudo', 'usermod', '-aG', 's,u,d,o,,,d,e,v,e,l,o,p,e,r,s', 'testuser']' returned non-zero exit status 6.
+2025-08-13 22:04:04,009 - INFO - Usuario testuser creado con exito.
+2025-08-13 22:04:04,024 - ERROR - Error al añadir  al  usuario a  los grupos [,s,u,d,o,,,d,e,v,e,l,o,p,e,r,s,]: Command '['sudo', 'usermod', '-aG', '[,s,u,d,o,,,d,e,v,e,l,o,p,e,r,s,]', 'testuser']' returned non-zero exit status 6.
+2025-08-13 22:06:21,098 - INFO - Usuario testuser creado con exito.
+2025-08-13 22:06:21,108 - ERROR - Error al añadir  al  usuario a  los grupos [sudo,developers]: Command '['sudo', 'usermod', '-aG', '[sudo,developers]', 'testuser']' returned non-zero exit status 6.
+2025-08-13 22:06:30,287 - ERROR - Error al crear  al  usuario testuser: Command '['sudo', 'adduser', 'testuser']' returned non-zero exit status 11.
+2025-08-13 22:06:57,217 - INFO - Usuario testuser creado con exito.
+2025-08-13 22:06:57,227 - ERROR - Error al añadir  al  usuario a  los grupos sudo,developers: Command '['sudo', 'usermod', '-aG', 'sudo,developers', 'testuser']' returned non-zero exit status 6.
+2025-08-13 22:10:45,689 - INFO - Usuario testuser creado con exito.
+2025-08-13 22:10:45,699 - ERROR - Error al añadir  al  usuario a  los grupos sudo,developers: Command '['sudo', 'usermod', '-aG', 'sudo,developers', 'testuser']' returned non-zero exit status 6.
+2025-08-13 22:11:43,157 - INFO - Usuario testuser creado con exito.
+2025-08-13 22:11:43,177 - INFO - El usuario testuser fue añadido a los grupos:  sudo,developers
