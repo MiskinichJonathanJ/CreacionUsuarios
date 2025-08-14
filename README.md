@@ -56,3 +56,10 @@ Puedes especificar varios grupos separados por comas:
 ```bash
 sudo python3 user_manager.py --create --user juan --password ClaveSegura123 --group sudo,developers
 ```
+
+## Parámetros disponibles
+
+- -c, --create	  Indica que se va a crear un nuevo usuario.
+- -u, --user	    Nombre del usuario a crear.
+- -p, --password	Contraseña que se asignará al usuario.
+- -g, --group	    Lista de grupos separados por comas a los que se añadirá el usuario.
